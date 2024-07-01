@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to CodeBuddy!</h1>
+<p>Your platform for sharing and reviewing code snippets.</p>
+<a href="{{ url_for('register') }}">Register</a>
+<a href="{{ url_for('login') }}">Login</a>
+{% endblock %}
